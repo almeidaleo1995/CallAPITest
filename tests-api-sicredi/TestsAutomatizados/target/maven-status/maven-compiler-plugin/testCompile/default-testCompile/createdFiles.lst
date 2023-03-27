@@ -1,0 +1,7 @@
+stepdefinitions\StepSimulacaoPut.class
+stepdefinitions\StepSimulacaoDelete.class
+stepdefinitions\StepSimulacaoGet.class
+stepdefinitions\StepSimulacaoPost.class
+runnner\RunnerTests.class
+stepdefinitions\StepRestricaoGet.class
+stepdefinitions\StepSimulacoesGet.class

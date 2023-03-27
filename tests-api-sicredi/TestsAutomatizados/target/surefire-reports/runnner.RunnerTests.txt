@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: runnner.RunnerTests
+-------------------------------------------------------------------------------
+Tests run: 138, Failures: 14, Errors: 0, Skipped: 2, Time elapsed: 2.152 sec <<< FAILURE! - in runnner.RunnerTests
+o sistema deve retornar um status 400(Validar a inserção de uma simulação invalida #2)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<400>
+
+Validar a inserção de uma simulação invalida #2  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<400>
+
+o sistema deve retornar um status 400(Validar a inserção de uma simulação invalida #5)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<400>
+
+Validar a inserção de uma simulação invalida #5  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<400>
+
+o sistema deve retornar um status 404 de consulta(Validar consulta de simulação invalida #2)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+
+Validar consulta de simulação invalida #2  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+
+o sistema deve retornar um status 404 de consulta(Validar consulta de simulação invalida #3)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+
+Validar consulta de simulação invalida #3  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+
+o sistema deve retornar um status 400 de delete(Validar delete de uma simulação invalida #1)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<400>
+
+Validar delete de uma simulação invalida #1  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<400>
+
+o sistema deve retornar um status 400 de delete(Validar delete de uma simulação invalida #2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<400>
+
+Validar delete de uma simulação invalida #2  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<400>
+
+o sistema deve retornar um status 400 de atualizacao(Validar autualização de uma simulação #2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<400>
+
+Validar autualização de uma simulação #2  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<400>
+

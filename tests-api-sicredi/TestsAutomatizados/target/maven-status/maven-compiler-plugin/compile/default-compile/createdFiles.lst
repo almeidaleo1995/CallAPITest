@@ -1,0 +1,5 @@
+request\APIRequest.class
+util\TransformacaoJson.class
+util\MontagemDTO.class
+util\GeradorCPF.class
+dominio\SimulacaoDTO.class

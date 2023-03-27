@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runnner.RunnerTests" time="2.152" tests="138" errors="0" skipped="2" failures="14">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\reposJava\desafiosicredi\tests-api-sicredi\TestsAutomatizados"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="RunnerTests"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\reposJava\desafiosicredi\tests-api-sicredi\TestsAutomatizados"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\almei\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\OpenJDK\jdk-8.0.332.09-hotspot\bin;C:\Program Files\OpenJDK\jre-8.0.332.09-hotspot\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\maven\bin;C:\Users\almei\AppData\Local\Microsoft\WindowsApps;C:\Users\almei\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\almei\.dotnet\tools;C:\Program Files\Java\jdk1.8.0_202\\bin;C:\maven\\bin;."/>
+    <property name="maven.conf" value="C:\maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\maven\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\almei"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="almei"/>
+    <property name="java.class.path" value="C:\maven\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dtest=RunnerTests"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="que sera realizado uma consulta de restricao" classname="Validar a consulta de restricao de CPF #1" time="0.004"/>
+  <testcase name="informo o cpf &quot;97093236014&quot; para consultar a restricao" classname="Validar a consulta de restricao de CPF #1" time="0.539"/>
+  <testcase name="o sistema deve retornar um status 200 de consulta de restricao" classname="Validar a consulta de restricao de CPF #1" time="0"/>
+  <testcase name="Validar a consulta de restricao de CPF #1" classname="Validar a consulta de restricao de CPF #1" time="0.001"/>
+  <testcase name="que sera realizado uma consulta de restricao" classname="Validar a consulta de restricao de CPF #2" time="0"/>
+  <testcase name="informo o cpf &quot;84809766080&quot; para consultar a restricao" classname="Validar a consulta de restricao de CPF #2" time="0.01"/>
+  <testcase name="o sistema deve retornar um status 200 de consulta de restricao" classname="Validar a consulta de restricao de CPF #2" time="0"/>
+  <testcase name="Validar a consulta de restricao de CPF #2" classname="Validar a consulta de restricao de CPF #2" time="0"/>
+  <testcase name="que sera realizado uma consulta de restricao" classname="Validar a consulta de restricao de CPF #3" time="0"/>
+  <testcase name="informo o cpf &quot;62648716050&quot; para consultar a restricao" classname="Validar a consulta de restricao de CPF #3" time="0.009"/>
+  <testcase name="o sistema deve retornar um status 200 de consulta de restricao" classname="Validar a consulta de restricao de CPF #3" time="0"/>
+  <testcase name="Validar a consulta de restricao de CPF #3" classname="Validar a consulta de restricao de CPF #3" time="0"/>
+  <testcase name="que sera realizado uma consulta de restricao" classname="Validar a consulta de restricao de CPF #4" time="0"/>
+  <testcase name="informo o cpf &quot;26276298085&quot; para consultar a restricao" classname="Validar a consulta de restricao de CPF #4" time="0.008"/>
+  <testcase name="o sistema deve retornar um status 200 de consulta de restricao" classname="Validar a consulta de restricao de CPF #4" time="0"/>
+  <testcase name="Validar a consulta de restricao de CPF #4" classname="Validar a consulta de restricao de CPF #4" time="0"/>
+  <testcase name="que sera realizado uma consulta de restricao" classname="Validar a consulta de restricao de CPF #5" time="0"/>
+  <testcase name="informo o cpf &quot;01317496094&quot; para consultar a restricao" classname="Validar a consulta de restricao de CPF #5" time="0.01"/>
+  <testcase name="o sistema deve retornar um status 200 de consulta de restricao" classname="Validar a consulta de restricao de CPF #5" time="0"/>
+  <testcase name="Validar a consulta de restricao de CPF #5" classname="Validar a consulta de restricao de CPF #5" time="0.001"/>
+  <testcase name="que sera realizado uma consulta de restricao" classname="Validar a consulta de restricao de CPF #6" time="0"/>
+  <testcase name="informo o cpf &quot;55856777050&quot; para consultar a restricao" classname="Validar a consulta de restricao de CPF #6" time="0.009"/>
+  <testcase name="o sistema deve retornar um status 200 de consulta de restricao" classname="Validar a consulta de restricao de CPF #6" time="0"/>
+  <testcase name="Validar a consulta de restricao de CPF #6" classname="Validar a consulta de restricao de CPF #6" time="0"/>
+  <testcase name="que sera realizado uma consulta de restricao" classname="Validar a consulta de restricao de CPF #7" time="0"/>
+  <testcase name="informo o cpf &quot;19626829001&quot; para consultar a restricao" classname="Validar a consulta de restricao de CPF #7" time="0.01"/>
+  <testcase name="o sistema deve retornar um status 200 de consulta de restricao" classname="Validar a consulta de restricao de CPF #7" time="0"/>
+  <testcase name="Validar a consulta de restricao de CPF #7" classname="Validar a consulta de restricao de CPF #7" time="0"/>
+  <testcase name="que sera realizado uma consulta de restricao" classname="Validar a consulta de restricao de CPF #8" time="0"/>
+  <testcase name="informo o cpf &quot;24094592008&quot; para consultar a restricao" classname="Validar a consulta de restricao de CPF #8" time="0.01"/>
+  <testcase name="o sistema deve retornar um status 200 de consulta de restricao" classname="Validar a consulta de restricao de CPF #8" time="0"/>
+  <testcase name="Validar a consulta de restricao de CPF #8" classname="Validar a consulta de restricao de CPF #8" time="0"/>
+  <testcase name="que sera realizado uma consulta de restricao" classname="Validar a consulta de restricao de CPF #9" time="0"/>
+  <testcase name="informo o cpf &quot;58063164083&quot; para consultar a restricao" classname="Validar a consulta de restricao de CPF #9" time="0.008"/>
+  <testcase name="o sistema deve retornar um status 200 de consulta de restricao" classname="Validar a consulta de restricao de CPF #9" time="0"/>
+  <testcase name="Validar a consulta de restricao de CPF #9" classname="Validar a consulta de restricao de CPF #9" time="0"/>
+  <testcase name="que sera realizado uma consulta de restricao" classname="Validar a consulta de restricao de CPF #10" time="0"/>
+  <testcase name="informo o cpf &quot;63419532083&quot; para consultar a restricao" classname="Validar a consulta de restricao de CPF #10" time="0.01"/>
+  <testcase name="o sistema deve retornar um status 204 de consulta de restricao" classname="Validar a consulta de restricao de CPF #10" time="0"/>
+  <testcase name="Validar a consulta de restricao de CPF #10" classname="Validar a consulta de restricao de CPF #10" time="0"/>
+  <testcase name="que sera realizado uma consulta de restricao" classname="Validar a consulta de restricao de CPF #11" time="0"/>
+  <testcase name="informo o cpf &quot;83737304009&quot; para consultar a restricao" classname="Validar a consulta de restricao de CPF #11" time="0.009"/>
+  <testcase name="o sistema deve retornar um status 204 de consulta de restricao" classname="Validar a consulta de restricao de CPF #11" time="0"/>
+  <testcase name="Validar a consulta de restricao de CPF #11" classname="Validar a consulta de restricao de CPF #11" time="0"/>
+  <testcase name="que sera realizado uma consulta de restricao" classname="Validar a consulta de restricao de CPF #12" time="0"/>
+  <testcase name="informo o cpf &quot;83737304009&quot; para consultar a restricao" classname="Validar a consulta de restricao de CPF #12" time="0.009"/>
+  <testcase name="o sistema deve retornar um status 204 de consulta de restricao" classname="Validar a consulta de restricao de CPF #12" time="0"/>
+  <testcase name="Validar a consulta de restricao de CPF #12" classname="Validar a consulta de restricao de CPF #12" time="0"/>
+  <testcase name="que sera realizado uma simulação" classname="Validar a inserção de uma simulação" time="0.001"/>
+  <testcase name="informo o cpf &quot;33570784061&quot;, email &quot;teste@teste.com&quot;, valor 1600, parcelas 6, seguro &quot;true&quot;" classname="Validar a inserção de uma simulação" time="0.209"/>
+  <testcase name="o sistema deve retornar um status 201" classname="Validar a inserção de uma simulação" time="0"/>
+  <testcase name="Validar a inserção de uma simulação" classname="Validar a inserção de uma simulação" time="0"/>
+  <testcase name="que sera realizado uma simulação" classname="Validar a inserção de uma simulação invalida #1" time="0"/>
+  <testcase name="informo o email &quot;emailinvalido&quot;, valor 1600, parcelas 6, seguro &quot;true&quot; com dados invalidos" classname="Validar a inserção de uma simulação invalida #1" time="0.033"/>
+  <testcase name="o sistema deve retornar um status 400" classname="Validar a inserção de uma simulação invalida #1" time="0"/>
+  <testcase name="o retorno conter a seguinte mensagem &quot;E-mail deve ser um e-mail válido&quot;" classname="Validar a inserção de uma simulação invalida #1" time="0"/>
+  <testcase name="Validar a inserção de uma simulação invalida #1" classname="Validar a inserção de uma simulação invalida #1" time="0"/>
+  <testcase name="que sera realizado uma simulação" classname="Validar a inserção de uma simulação invalida #2" time="0"/>
+  <testcase name="informo o email &quot;teste@teste.com&quot;, valor 200, parcelas 6, seguro &quot;true&quot; com dados invalidos" classname="Validar a inserção de uma simulação invalida #2" time="0.011"/>
+  <testcase name="o sistema deve retornar um status 400" classname="Validar a inserção de uma simulação invalida #2" time="0.004">
+    <failure message="expected:&lt;201&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<201> but was:<400>
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32minformo o email &amp#27;[0m&amp#27;[32m&amp#27;[1m"teste@teste.com"&amp#27;[0m&amp#27;[32m, valor &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m, parcelas &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, seguro &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m com dados invalidos&amp#27;[0m &amp#27;[90m# stepdefinitions.StepSimulacaoPost.informo_valores_invalidoss(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="o retorno conter a seguinte mensagem &quot;Valor deve ser maior ou igual a R$ 1.000&quot;" classname="Validar a inserção de uma simulação invalida #2" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[31mEntÃ£o &amp#27;[0m&amp#27;[31mo sistema deve retornar um status &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.StepSimulacaoPost.sistema_retorna(java.lang.Integer)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<201> but was:<400>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepdefinitions.StepSimulacaoPost.sistema_retorna(StepSimulacaoPost.java:82)
+	at âœ½.o sistema deve retornar um status 400(file:///C:/reposJava/desafiosicredi/tests-api-sicredi/TestsAutomatizados/src/test/resources/features/Simulacao.feature:27)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Validar a inserção de uma simulação invalida #2" classname="Validar a inserção de uma simulação invalida #2" time="0.001">
+    <failure message="expected:&lt;201&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<201> but was:<400>
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[36mE &amp#27;[0m&amp#27;[36mo retorno conter a seguinte mensagem &amp#27;[0m&amp#27;[36m&amp#27;[1m"Valor deve ser maior ou igual a R$ 1.000"&amp#27;[0m                  &amp#27;[90m# stepdefinitions.StepSimulacaoPost.sistema_retorna_mensagem_na_adicao(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="que sera realizado uma simulação" classname="Validar a inserção de uma simulação invalida #3" time="0.001"/>
+  <testcase name="informo o email &quot;teste@teste.com&quot;, valor 50000, parcelas 6, seguro &quot;true&quot; com dados invalidos" classname="Validar a inserção de uma simulação invalida #3" time="0.01"/>
+  <testcase name="o sistema deve retornar um status 400" classname="Validar a inserção de uma simulação invalida #3" time="0"/>
+  <testcase name="o retorno conter a seguinte mensagem &quot;Valor deve ser menor ou igual a R$ 40.000&quot;" classname="Validar a inserção de uma simulação invalida #3" time="0"/>
+  <testcase name="Validar a inserção de uma simulação invalida #3" classname="Validar a inserção de uma simulação invalida #3" time="0"/>
+  <testcase name="que sera realizado uma simulação" classname="Validar a inserção de uma simulação invalida #4" time="0"/>
+  <testcase name="informo o email &quot;teste@teste.com&quot;, valor 1600, parcelas 1, seguro &quot;true&quot; com dados invalidos" classname="Validar a inserção de uma simulação invalida #4" time="0.01"/>
+  <testcase name="o sistema deve retornar um status 400" classname="Validar a inserção de uma simulação invalida #4" time="0"/>
+  <testcase name="o retorno conter a seguinte mensagem &quot;Parcelas deve ser igual ou maior que 2&quot;" classname="Validar a inserção de uma simulação invalida #4" time="0"/>
+  <testcase name="Validar a inserção de uma simulação invalida #4" classname="Validar a inserção de uma simulação invalida #4" time="0.001"/>
+  <testcase name="que sera realizado uma simulação" classname="Validar a inserção de uma simulação invalida #5" time="0"/>
+  <testcase name="informo o email &quot;teste@teste.com&quot;, valor 1600, parcelas 50, seguro &quot;true&quot; com dados invalidos" classname="Validar a inserção de uma simulação invalida #5" time="0.01"/>
+  <testcase name="o sistema deve retornar um status 400" classname="Validar a inserção de uma simulação invalida #5" time="0">
+    <failure message="expected:&lt;201&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<201> but was:<400>
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32minformo o email &amp#27;[0m&amp#27;[32m&amp#27;[1m"teste@teste.com"&amp#27;[0m&amp#27;[32m, valor &amp#27;[0m&amp#27;[32m&amp#27;[1m1600&amp#27;[0m&amp#27;[32m, parcelas &amp#27;[0m&amp#27;[32m&amp#27;[1m50&amp#27;[0m&amp#27;[32m, seguro &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m com dados invalidos&amp#27;[0m &amp#27;[90m# stepdefinitions.StepSimulacaoPost.informo_valores_invalidoss(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="o retorno conter a seguinte mensagem &quot;Parcelas deve ser igual ou menor que 48&quot;" classname="Validar a inserção de uma simulação invalida #5" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[31mEntÃ£o &amp#27;[0m&amp#27;[31mo sistema deve retornar um status &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m                                                          &amp#27;[90m# stepdefinitions.StepSimulacaoPost.sistema_retorna(java.lang.Integer)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<201> but was:<400>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepdefinitions.StepSimulacaoPost.sistema_retorna(StepSimulacaoPost.java:82)
+	at âœ½.o sistema deve retornar um status 400(file:///C:/reposJava/desafiosicredi/tests-api-sicredi/TestsAutomatizados/src/test/resources/features/Simulacao.feature:27)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Validar a inserção de uma simulação invalida #5" classname="Validar a inserção de uma simulação invalida #5" time="0.001">
+    <failure message="expected:&lt;201&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<201> but was:<400>
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[36mE &amp#27;[0m&amp#27;[36mo retorno conter a seguinte mensagem &amp#27;[0m&amp#27;[36m&amp#27;[1m"Parcelas deve ser igual ou menor que 48"&amp#27;[0m                     &amp#27;[90m# stepdefinitions.StepSimulacaoPost.sistema_retorna_mensagem_na_adicao(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="que sera realizado uma simulação" classname="Validar a inserção de uma simulação duplicada" time="0"/>
+  <testcase name="informo o cpf &quot;94629364048&quot; ja utilizado em uma requisao anterior" classname="Validar a inserção de uma simulação duplicada" time="0.027"/>
+  <testcase name="o sistema deve retornar um status 400" classname="Validar a inserção de uma simulação duplicada" time="0"/>
+  <testcase name="o retorno conter a seguinte mensagem &quot;CPF duplicado&quot;" classname="Validar a inserção de uma simulação duplicada" time="0"/>
+  <testcase name="Validar a inserção de uma simulação duplicada" classname="Validar a inserção de uma simulação duplicada" time="0"/>
+  <testcase name="que sera realizado uma simulação" classname="Validar a inserção de uma simulação com cpf invalido #1" time="0"/>
+  <testcase name="informo o cpf &quot;***********&quot; invalido na adição de simulação" classname="Validar a inserção de uma simulação com cpf invalido #1" time="0.021"/>
+  <testcase name="o sistema deve retornar um status 400" classname="Validar a inserção de uma simulação com cpf invalido #1" time="0"/>
+  <testcase name="Validar a inserção de uma simulação com cpf invalido #1" classname="Validar a inserção de uma simulação com cpf invalido #1" time="0"/>
+  <testcase name="que sera realizado uma simulação" classname="Validar a inserção de uma simulação com cpf invalido #2" time="0"/>
+  <testcase name="informo o cpf &quot;999.999.999-99&quot; invalido na adição de simulação" classname="Validar a inserção de uma simulação com cpf invalido #2" time="0.022"/>
+  <testcase name="o sistema deve retornar um status 400" classname="Validar a inserção de uma simulação com cpf invalido #2" time="0"/>
+  <testcase name="Validar a inserção de uma simulação com cpf invalido #2" classname="Validar a inserção de uma simulação com cpf invalido #2" time="0"/>
+  <testcase name="que sera realizado uma simulação" classname="Validar a inserção de uma simulação com cpf invalido #3" time="0"/>
+  <testcase name="informo o cpf &quot;1234&quot; invalido na adição de simulação" classname="Validar a inserção de uma simulação com cpf invalido #3" time="0.019"/>
+  <testcase name="o sistema deve retornar um status 400" classname="Validar a inserção de uma simulação com cpf invalido #3" time="0"/>
+  <testcase name="Validar a inserção de uma simulação com cpf invalido #3" classname="Validar a inserção de uma simulação com cpf invalido #3" time="0"/>
+  <testcase name="que sera realizado uma consulta de simulação" classname="Validar consulta de simulação valida" time="0"/>
+  <testcase name="informo o cpf &quot;33570784061&quot;" classname="Validar consulta de simulação valida" time="0.028"/>
+  <testcase name="o sistema deve retornar um status 200 de consulta" classname="Validar consulta de simulação valida" time="0.001"/>
+  <testcase name="Validar consulta de simulação valida" classname="Validar consulta de simulação valida" time="0.001"/>
+  <testcase name="que sera realizado uma consulta de simulação" classname="Validar consulta de simulação invalida #1" time="0"/>
+  <testcase name="informo o cpf &quot;62698066075&quot; invalido" classname="Validar consulta de simulação invalida #1" time="0.007"/>
+  <testcase name="o sistema deve retornar um status 404 de consulta" classname="Validar consulta de simulação invalida #1" time="0"/>
+  <testcase name="Validar consulta de simulação invalida #1" classname="Validar consulta de simulação invalida #1" time="0"/>
+  <testcase name="que sera realizado uma consulta de simulação" classname="Validar consulta de simulação invalida #2" time="0"/>
+  <testcase name="informo o cpf &quot;***********&quot; invalido" classname="Validar consulta de simulação invalida #2" time="0.008"/>
+  <testcase name="o sistema deve retornar um status 404 de consulta" classname="Validar consulta de simulação invalida #2" time="0.001">
+    <failure message="expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<404>
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32minformo o cpf &amp#27;[0m&amp#27;[32m&amp#27;[1m"***********"&amp#27;[0m&amp#27;[32m invalido&amp#27;[0m              &amp#27;[90m# stepdefinitions.StepSimulacaoGet.informo_cpf_invalido(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Validar consulta de simulação invalida #2" classname="Validar consulta de simulação invalida #2" time="0.001">
+    <failure message="expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<404>
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[31mEntÃ£o &amp#27;[0m&amp#27;[31mo sistema deve retornar um status &amp#27;[0m&amp#27;[31m&amp#27;[1m404&amp#27;[0m&amp#27;[31m de consulta&amp#27;[0m  &amp#27;[90m# stepdefinitions.StepSimulacaoGet.sistema_retorna_consulta(java.lang.Integer)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<200> but was:<404>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepdefinitions.StepSimulacaoGet.sistema_retorna_consulta(StepSimulacaoGet.java:50)
+	at âœ½.o sistema deve retornar um status 404 de consulta(file:///C:/reposJava/desafiosicredi/tests-api-sicredi/TestsAutomatizados/src/test/resources/features/Simulacao.feature:80)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="que sera realizado uma consulta de simulação" classname="Validar consulta de simulação invalida #3" time="0"/>
+  <testcase name="informo o cpf &quot;999.999.999-99&quot; invalido" classname="Validar consulta de simulação invalida #3" time="0.016"/>
+  <testcase name="o sistema deve retornar um status 404 de consulta" classname="Validar consulta de simulação invalida #3" time="0">
+    <failure message="expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<404>
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32minformo o cpf &amp#27;[0m&amp#27;[32m&amp#27;[1m"999.999.999-99"&amp#27;[0m&amp#27;[32m invalido&amp#27;[0m           &amp#27;[90m# stepdefinitions.StepSimulacaoGet.informo_cpf_invalido(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Validar consulta de simulação invalida #3" classname="Validar consulta de simulação invalida #3" time="0.001">
+    <failure message="expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<404>
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[31mEntÃ£o &amp#27;[0m&amp#27;[31mo sistema deve retornar um status &amp#27;[0m&amp#27;[31m&amp#27;[1m404&amp#27;[0m&amp#27;[31m de consulta&amp#27;[0m  &amp#27;[90m# stepdefinitions.StepSimulacaoGet.sistema_retorna_consulta(java.lang.Integer)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<200> but was:<404>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepdefinitions.StepSimulacaoGet.sistema_retorna_consulta(StepSimulacaoGet.java:50)
+	at âœ½.o sistema deve retornar um status 404 de consulta(file:///C:/reposJava/desafiosicredi/tests-api-sicredi/TestsAutomatizados/src/test/resources/features/Simulacao.feature:80)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="que sera realizado uma consulta de simulação" classname="Validar consulta de simulação invalida #4" time="0"/>
+  <testcase name="informo o cpf &quot;62698066075&quot; invalido" classname="Validar consulta de simulação invalida #4" time="0.007"/>
+  <testcase name="o sistema deve retornar um status 404 de consulta" classname="Validar consulta de simulação invalida #4" time="0.001"/>
+  <testcase name="Validar consulta de simulação invalida #4" classname="Validar consulta de simulação invalida #4" time="0.001"/>
+  <testcase name="que sera realizado um delete de uma simulação" classname="Validar delete de uma simulação" time="0.001"/>
+  <testcase name="informo o id valido" classname="Validar delete de uma simulação" time="0.167"/>
+  <testcase name="o sistema deve retornar um status 200 de delete" classname="Validar delete de uma simulação" time="0.001"/>
+  <testcase name="Validar delete de uma simulação" classname="Validar delete de uma simulação" time="0.001"/>
+  <testcase name="que sera realizado um delete de uma simulação" classname="Validar delete de uma simulação invalida #1" time="0"/>
+  <testcase name="informo o id &quot;99999999&quot; invalido" classname="Validar delete de uma simulação invalida #1" time="0.007"/>
+  <testcase name="o sistema deve retornar um status 400 de delete" classname="Validar delete de uma simulação invalida #1" time="0">
+    <failure message="expected:&lt;200&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<400>
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32minformo o id &amp#27;[0m&amp#27;[32m&amp#27;[1m"99999999"&amp#27;[0m&amp#27;[32m invalido&amp#27;[0m                    &amp#27;[90m# stepdefinitions.StepSimulacaoDelete.informo_id_invalido(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Validar delete de uma simulação invalida #1" classname="Validar delete de uma simulação invalida #1" time="0.001">
+    <failure message="expected:&lt;200&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<400>
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[31mEntÃ£o &amp#27;[0m&amp#27;[31mo sistema deve retornar um status &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m de delete&amp#27;[0m      &amp#27;[90m# stepdefinitions.StepSimulacaoDelete.sistema_retorna_delete(java.lang.Integer)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<200> but was:<400>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepdefinitions.StepSimulacaoDelete.sistema_retorna_delete(StepSimulacaoDelete.java:60)
+	at âœ½.o sistema deve retornar um status 400 de delete(file:///C:/reposJava/desafiosicredi/tests-api-sicredi/TestsAutomatizados/src/test/resources/features/Simulacao.feature:105)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="que sera realizado um delete de uma simulação" classname="Validar delete de uma simulação invalida #2" time="0"/>
+  <testcase name="informo o id &quot;00000000&quot; invalido" classname="Validar delete de uma simulação invalida #2" time="0.008"/>
+  <testcase name="o sistema deve retornar um status 400 de delete" classname="Validar delete de uma simulação invalida #2" time="0">
+    <failure message="expected:&lt;200&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<400>
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32minformo o id &amp#27;[0m&amp#27;[32m&amp#27;[1m"00000000"&amp#27;[0m&amp#27;[32m invalido&amp#27;[0m                    &amp#27;[90m# stepdefinitions.StepSimulacaoDelete.informo_id_invalido(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Validar delete de uma simulação invalida #2" classname="Validar delete de uma simulação invalida #2" time="0.001">
+    <failure message="expected:&lt;200&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<400>
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[31mEntÃ£o &amp#27;[0m&amp#27;[31mo sistema deve retornar um status &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m de delete&amp#27;[0m      &amp#27;[90m# stepdefinitions.StepSimulacaoDelete.sistema_retorna_delete(java.lang.Integer)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<200> but was:<400>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepdefinitions.StepSimulacaoDelete.sistema_retorna_delete(StepSimulacaoDelete.java:60)
+	at âœ½.o sistema deve retornar um status 400 de delete(file:///C:/reposJava/desafiosicredi/tests-api-sicredi/TestsAutomatizados/src/test/resources/features/Simulacao.feature:105)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="que sera realizado um update de uma simulação" classname="Validar autualização de uma simulação #1" time="0"/>
+  <testcase name="informo o cpf valido de atualizacao" classname="Validar autualização de uma simulação #1" time="0.031"/>
+  <testcase name="o sistema deve retornar um status 200 de atualizacao" classname="Validar autualização de uma simulação #1" time="0"/>
+  <testcase name="Validar autualização de uma simulação #1" classname="Validar autualização de uma simulação #1" time="0"/>
+  <testcase name="que sera realizado um update de uma simulação" classname="Validar autualização de uma simulação #2" time="0"/>
+  <testcase name="informo o cpf valido de atualizacao" classname="Validar autualização de uma simulação #2" time="0.019"/>
+  <testcase name="o sistema deve retornar um status 400 de atualizacao" classname="Validar autualização de uma simulação #2" time="0">
+    <failure message="expected:&lt;200&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<400>
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32minformo o cpf valido de atualizacao&amp#27;[0m                 &amp#27;[90m# stepdefinitions.StepSimulacaoPut.informo_cpf_valido_de_atualizacao()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Validar autualização de uma simulação #2" classname="Validar autualização de uma simulação #2" time="0.001">
+    <failure message="expected:&lt;200&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<400>
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[31mEntÃ£o &amp#27;[0m&amp#27;[31mo sistema deve retornar um status &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m&amp#27;[31m de atualizacao&amp#27;[0m &amp#27;[90m# stepdefinitions.StepSimulacaoPut.sistema_retorna_atulizacao(java.lang.Integer)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<200> but was:<400>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepdefinitions.StepSimulacaoPut.sistema_retorna_atulizacao(StepSimulacaoPut.java:59)
+	at âœ½.o sistema deve retornar um status 400 de atualizacao(file:///C:/reposJava/desafiosicredi/tests-api-sicredi/TestsAutomatizados/src/test/resources/features/Simulacao.feature:130)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="que sera realizado uma consulta de todas as simulações" classname="Validar autualização de todas as simulações" time="0"/>
+  <testcase name="realizo a consulta" classname="Validar autualização de todas as simulações" time="0.013"/>
+  <testcase name="o sistema deve retornar um status 200 de consulta de simulacoes" classname="Validar autualização de todas as simulações" time="0"/>
+  <testcase name="Validar autualização de todas as simulações" classname="Validar autualização de todas as simulações" time="0"/>
+</testsuite>
